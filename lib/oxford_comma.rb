@@ -17,6 +17,6 @@ when 1
 when 2
   array.join(" and ")
 else 
-  array[0...-1].join(", ") << ", and #{array[-1]}"
+  array[0...-1].join(", ").push(", and #{array[-1]}")
 end 
 end  
