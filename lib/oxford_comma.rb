@@ -1,12 +1,12 @@
-array = ["fiddleheads","okra","kohlrabi", "obladi", "oblada"]
+# array = ["fiddleheads","okra","kohlrabi", "obladi", "oblada"]
 
-def oxford_comma(array)
+# def oxford_comma(array)
   
-  array[-1] = "and #{array[-1]}"
-  array.join(", ")
+#   array[-1] = "and #{array[-1]}"
+#   array.join(", ")
  
   
-end
+# end
 def oxford_comma(array)
 
    case array.length 
